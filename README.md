@@ -26,7 +26,7 @@ Accurately predicting house sale prices supports real estate valuation, purchase
 
 ## How to Run
 
-\`\`\`bash
+```bash
 git clone https://github.com/wz206/House-Prices-Prediction.git
 cd House-Prices-Prediction
 
@@ -35,10 +35,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 jupyter notebook notebooks/
-\`\`\`
+```
 
 Run notebooks 01 through 07 in order to reproduce the full pipeline:
-
 | Notebook | Purpose |
 |---|---|
 | 01_eda.ipynb | Exploratory data analysis |
